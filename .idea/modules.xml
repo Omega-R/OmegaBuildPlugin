@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BuildPlugin/BuildPlugin.iml" filepath="$PROJECT_DIR$/BuildPlugin/BuildPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OmegaBuildPlugin.iml" filepath="$PROJECT_DIR$/OmegaBuildPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
