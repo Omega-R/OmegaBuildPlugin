@@ -14,7 +14,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        networkBuild.serverIp = 'https://10.123.444.11:8080/v1'
+//        networkBuild.serverIp = 'https://10.123.444.11:8080/v1'
     }
     buildTypes {
         release {
