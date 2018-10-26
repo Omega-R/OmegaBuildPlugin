@@ -27,7 +27,7 @@ compileTestKotlin {
 
 gradlePlugin {
     plugins {
-        yourPluginName {
+        LOmegaBuildPlugin {
             id = 'omega-build-plugin'
             implementationClass = 'com.omega.buildplugin.OmegaBuildPlugin'
         }
