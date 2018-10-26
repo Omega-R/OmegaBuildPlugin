@@ -4,7 +4,7 @@ import org.gradle.api.Plugin
 import org.gradle.api.Project
 import java.net.URL
 
-class OmegaBuildPlugin: Plugin<Project> {
+open class OmegaBuildPlugin: Plugin<Project> {
     override fun apply(project : Project) {
         val ext = project.extensions.create("networkBuild", NetworkBuildData::class.java)
         project.afterEvaluate {
@@ -12,5 +12,8 @@ class OmegaBuildPlugin: Plugin<Project> {
         }
     }
 
-    fun getDomain(serverIp : String) = URL(serverIp).host
+    fun getDomain(serverIp : String?) : String {
+        System.out.println(serverIp)
+        return serverIp?.let { URL(it).host } ?: ""
+    }
 }

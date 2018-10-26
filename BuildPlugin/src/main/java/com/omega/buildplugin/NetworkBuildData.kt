@@ -1,3 +1,5 @@
 package com.omega.buildplugin
 
-data class NetworkBuildData(var serverIp: String)
+open class NetworkBuildData {
+    var serverIp: String? = null
+}
